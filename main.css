@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(205, 102, 102);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color:black;
+    font-size: 16px;
+    padding: 20px;
+}
+img{
+    width: 300px;
+}

@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.logo{
+    width: 10%;
+}
+
 #logo_link{
     padding-top: 5px;
 }
@@ -14,7 +18,8 @@
 }
 
 nav a{
-    padding: 35px;
+    padding: 10px 35px 10px 35px;
+
 }
 
 body{

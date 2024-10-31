@@ -11,6 +11,7 @@ nav{
     justify-content: center;
     justify-items: center;
     padding-left: 65px;
+    z-index: 10;
 }
 .home-grid{
     display:grid;
@@ -21,6 +22,7 @@ nav{
     width: 12%;
     padding-top: 10px;
     margin: 0;
+    box-shadow: none;
 }
 
 .logo{
@@ -115,33 +117,45 @@ h4{
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
     margin-top: 700px;
-    width: 100%;
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
     justify-self: center;
     align-self: center;
+}
+
+.rivers-card img, .camping-card img, .rapids-card img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+.rivers-card h4, .camping-card h4, .rapids-card h4 {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-size: 1.2em;
 }
 
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
-    box-shadow: 5px 5px 10px black;
 }
 
 .camping-card{
     grid-column: 5/7;
     grid-row: 2/3;
-    box-shadow: 5px 5px 10px black;
 }
 
 .rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
-    box-shadow: 5px 5px 10px black;
 }
 
 .mountains{
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px black;
 }
 
 .card-img, .mountains{
@@ -153,7 +167,6 @@ h4{
 .card-img{
     border: 10px black;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px black;
     width: 25%;
 }
 

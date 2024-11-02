@@ -298,8 +298,7 @@ footer .social img{
     .home-title {
         font-size: 25px;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 0 auto;
+    .rivers-card, .camping-card, .rapids-card {
         grid-column: 1/-1;
         width: 80%;
     }

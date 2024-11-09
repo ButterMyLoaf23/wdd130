@@ -39,7 +39,29 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
+
+.drinks{
+  width: 250px;
+  justify-self: center;
+}
+
+.tools{
+  width: 200px;
+  justify-self: center;
+}
+
+.aboutme{
+  width: 250px;
+  justify-self: center;
+}
+
+.logo{
+  width: 250px;
+  justify-self: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
@@ -123,6 +145,12 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+.wireframe {
+  margin: auto 0;
+  width:400px;
+  justify-self: center;
 }
 
 .sitemap {

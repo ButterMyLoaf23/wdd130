@@ -1,9 +1,30 @@
 .logo{
     width: 150px;
 }
+nav{
+    display:flex;
+    justify-content: space-around;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 65px;
+}
+
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav a:hover {
+    color: black;
+    background-color: grey;
+  }
 
 .hero{
     width: 1200px;
+    border: 50px;
+    border-color: black;
 }
 
 .drink-1{

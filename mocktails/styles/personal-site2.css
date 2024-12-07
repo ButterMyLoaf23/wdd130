@@ -300,3 +300,28 @@
   font-size: 1.2em;
   padding: 30px 5px 10px 5px;
 }
+
+/*page3*/
+
+.body-3{
+  justify-items: center;
+}
+
+.me{
+  width: 700px;
+  padding-top: 50px;
+}
+
+.me-text{
+  text-align: center;
+  font-size: 1.4em;
+  color: white;
+  padding: 20px 100px 20px 100px;
+}
+
+.bio{
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  padding: 50px 50px 30px 50px;
+}

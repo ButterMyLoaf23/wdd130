@@ -1,0 +1,287 @@
+body{
+    background-color: pink;
+    display: grid;
+}
+
+.logo{
+    width: 200px;
+    border-style:groove;
+    border-color: white;
+    border-width: 20px;
+    justify-self: center;
+    display: block;
+}
+
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+    font-size: 1.2em;
+}
+
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    border: 20px;
+    background-color: white;
+    border-style:ridge;
+    border-color: pink;
+    margin: 0 50px;
+  }
+
+  nav a:hover {
+    color: white;
+    background-color: lightpink;
+  }
+
+  header{
+    background-color: pink;
+  }
+
+  .hero{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 5em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
+  }
+
+  .firstrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 100px;
+  }
+
+  .pic1{
+    width: 500px;
+    height: 450px;
+    justify-self: center;
+    display: block;
+    border-style: ridge;
+    border-color: white;
+    border-width: 20px;
+    margin-left: 50px;
+  }
+
+  .pic1-text{
+    grid-column: 1/2;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
+  }
+
+  .pic2{
+    grid-column: 2/3;
+    width: 500px;
+    height: 450px;
+    justify-self: center;
+    display: block;
+    border-style: ridge;
+    border-color: white;
+    border-width: 20px;
+    
+  }
+
+  .pic2-text{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
+  }
+
+  .pic3{
+    width: 500px;
+    height: 450px;
+    justify-self: center;
+    display: block;
+    border-style: ridge;
+    border-color: white;
+    border-width: 20px;
+    margin-right: 50px;
+  }
+
+  .pic3-text{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
+  }
+
+  .pic4{
+    width: 500px;
+    height: 450px;
+    justify-self: center;
+    display: block;
+    border-style: ridge;
+    border-color: white;
+    border-width: 20px;
+    margin-left: 50px;
+  }
+
+  .pic4-text{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
+  }
+
+  .pic5{
+    width: 500px;
+    height: 450px;
+    justify-self: center;
+    display: block;
+    border-style: ridge;
+    border-color: white;
+    border-width: 20px;
+  }
+
+  .pic5-text{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
+  }
+
+  .pic6{
+    width: 500px;
+    height: 450px;
+    justify-self: center;
+    display: block;
+    border-style: ridge;
+    border-color: white;
+    border-width: 20px;
+    margin-right: 50px;
+  }
+
+  .pic6-text{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
+  }
+
+  .pic7{
+    width: 500px;
+    height: 505px;
+    justify-self: center;
+    display: block;
+    border-style: ridge;
+    border-color: white;
+    border-width: 20px;
+  }
+
+  .pic7-text{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+  }
+
+  footer {
+    width: 100%; 
+    background-color: #ffc9d6; 
+    color: #000; 
+    text-align: center;
+    padding: 20px 10px; 
+    font-family: 'Courier New', Courier, monospace; 
+    border-top: 4px solid #fff; 
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); 
+    bottom: 0; 
+    left: 0; 
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+  /* phone media*/
+  /* Default styles (for larger screens, e.g., desktop) */
+
+/* Styles for tablets (widths between 768px and 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .firstrow {
+      grid-template-columns: 1fr 1fr; /* Reduce columns to two */
+      grid-gap: 10px; /* Add spacing between elements */
+  }
+
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+      width: 400px; /* Shrink image width */
+      height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Styles for mobile phones (widths below 768px) */
+@media (max-width: 768px) {
+  body {
+      grid-template-rows: auto auto auto; /* Stack content vertically */
+  }
+
+  nav {
+      flex-direction: column; /* Stack navigation links */
+      align-items: center;
+  }
+
+  .firstrow {
+      grid-template-columns: 1fr; /* Display one item per row */
+  }
+
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+      width: 100%; /* Make images full-width */
+      max-width: 400px; /* Optional: Limit max size for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .hero {
+      font-size: 3em; /* Reduce hero text size */
+  }
+
+  nav a {
+      font-size: 1em; /* Shrink navigation link text */
+      padding: 10px; /* Adjust padding */
+  }
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto auto auto; /* Vertical stacking for content */
+  justify-items: center; /* Center align items horizontally */
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+  body {
+      grid-template-rows: auto; /* Single stack for smaller screens */
+  }
+}
+
+img {
+  max-width: 100%; /* Ensure images don't exceed the container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.hero {
+  font-size: 5vw; /* Scale hero text size based on viewport width */
+}
+
+.pic1-text, .pic2-text, .pic3-text, .pic7-text {
+  font-size: 2em; /* Make text responsive */
+}
+
+@media (max-width: 768px) {
+  .hero {
+      font-size: 3em; /* Smaller font size for mobile */
+  }
+
+  .pic1-text, .pic2-text, .pic3-text, .pic7-text {
+      font-size: 1.5em; /* Adjust for smaller screens */
+  }
+}

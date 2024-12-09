@@ -161,26 +161,27 @@ nav a {
 
   .pic6-text{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
   }
 
   .pic7{
     width: 500px;
-    height: 505px;
+    height: 450px;
     justify-self: center;
     display: block;
     border-style: ridge;
     border-color: white;
     border-width: 20px;
+    margin-left: 50px;
   }
 
   .pic7-text{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
     color: white;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1), -1px -1px 2px rgba(0, 0, 0, 1);
   }
 
   footer {

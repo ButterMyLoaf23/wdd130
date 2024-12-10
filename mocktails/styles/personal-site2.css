@@ -309,19 +309,26 @@
 
 .me{
   width: 700px;
-  padding-top: 50px;
+  margin-top: 50px;
+  border-style: ridge;
+  border-color: white;
+  border-width: 20px;
 }
 
 .me-text{
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: white;
   padding: 20px 100px 20px 100px;
 }
 
 .bio{
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
-  padding: 50px 50px 30px 50px;
+  margin: 50px 50px 30px 50px;
+  background-color: black;
+  border-style: ridge;
+  border-color: white;
+  border-width: 10px;
 }

@@ -18,7 +18,6 @@
     margin: 0 50px;
 }
 
-  /* Header */
   header {
     display: flex;
     justify-content: space-between;
@@ -350,6 +349,7 @@
 .me-text{
   text-align: center;
   font-size: 1.2em;
+  font-family: 'Roboto', serif;
   color: white;
   padding: 20px 100px 20px 100px;
 }
@@ -357,6 +357,7 @@
 .bio{
   text-align: center;
   font-size: 1.5em;
+  font-family: 'Oxygen', sans-serif;
   color: white;
   margin: 50px 50px 30px 50px;
   background-color: black;
